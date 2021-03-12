@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+        ::-webkit-scrollbar {
+            width: 5px;
+          }
+          ::-webkit-scrollbar-track {
+            background: transparent;
+          }
+          ::-webkit-scrollbar-thumb {
+            background-color: rgba(155, 155, 155, 0.7);
+            border-radius: 20px;
+            border: transparent;
+          }
+    
+}
+
+
+ 
+
+@import './dashNav';
+@import './dashmain';
+@import './dashboard';
+@import './dashfinal';
+@import './signin';
+@import './signup';
+@import './dashmain2';
+@import './dashboard2';
+@import './dashfinal2';
