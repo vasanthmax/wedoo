@@ -1,7 +1,7 @@
 import React from 'react';
 import AuthImage from '../assets/1.ai.png';
 import google from '../assets/google.png';
-import woodo from '../assets/woodosigin.png';
+import woodo from '../assets/groupregister.png';
 import { Link } from 'react-router-dom'
  
 const Signin = () => {
@@ -30,7 +30,7 @@ const Signin = () => {
                     </div>
                 </form>
                 <button className="btn"><span><img src={google} alt=""/></span>&nbsp;&nbsp;Sign In with Google</button>
-                <img src={woodo} alt=""/>
+                <img src={woodo} alt="" height="80px"/>
                 <div className="signup-route">
                     <p>Don't have an account?</p>
                     <Link to="/signup" ><p>Register</p></Link>
